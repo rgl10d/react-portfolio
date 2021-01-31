@@ -1,6 +1,12 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
-  }
+.row {
+    margin-left: 15%;
+    margin-top: 20px;
+    width: 70%;
+}
+
+hr {
+    position: relative;
+    border-top: 2px solid #D959C6;
+    left: 10%;
+    width: 80%;
+}

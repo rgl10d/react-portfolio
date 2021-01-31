@@ -4,31 +4,36 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500;
+    height: 350px;
+    border: 5px solid #A01803;
+    opacity: 0.75;
+    margin-bottom: 60px;
 }
 
 .portfolio1 {
     background-image: url(./screenshots/makeupsite.png);
-    height: 500px;
 }
 
 .portfolio2 {
-    background-image: url(./screenshots/reserve.png);
-    height: 500px;
-    opacity: 0.8;
+    background-image: url(./screenshots/reservecropped.png);
 }
 
 .portfolio3 {
     background-image: url(./screenshots/directory.png);
-    height: 500px;
-    opacity: 0.8;
 }
 
 .portfolio4 {
-    background-image: url(./screenshots/scheduler.png);
-    height: 500px;
-    opacity: 0.8;
+    background-image: url(./screenshots/schedulercropped.png);
 }
+
+/* .logo-tray {
+  background-color: #EDE8E8;
+  position: absolute;
+  width: 30%;
+  left: 40%;
+  bottom: 10%;
+  text-align: center;
+} */
 
 /* 
 .caption {
@@ -57,7 +62,7 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .portfolio1, .portfolio2, .portfolio3 {
+  .portfolio1, .portfolio2, .portfolio3, .portfolio4 {
     background-attachment: scroll;
   }
 }
