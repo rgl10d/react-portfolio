@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.32507a9f.chunk.css",
-    "main.js": "/static/js/main.ecee0909.chunk.js",
-    "main.js.map": "/static/js/main.ecee0909.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0a9cf803.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0a9cf803.js.map",
-    "static/js/2.7cd649af.chunk.js": "/static/js/2.7cd649af.chunk.js",
-    "static/js/2.7cd649af.chunk.js.map": "/static/js/2.7cd649af.chunk.js.map",
-    "static/js/3.ee5e8b36.chunk.js": "/static/js/3.ee5e8b36.chunk.js",
-    "static/js/3.ee5e8b36.chunk.js.map": "/static/js/3.ee5e8b36.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.32507a9f.chunk.css.map": "/static/css/main.32507a9f.chunk.css.map",
-    "static/js/2.7cd649af.chunk.js.LICENSE.txt": "/static/js/2.7cd649af.chunk.js.LICENSE.txt",
-    "static/media/Parallax.css": "/static/media/schedulercropped.a054f1ac.png"
+    "main.css": "/react-portfolio/static/css/main.ebec0848.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.ecee0909.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.ecee0909.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.c3ca914a.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c3ca914a.js.map",
+    "static/js/2.7cd649af.chunk.js": "/react-portfolio/static/js/2.7cd649af.chunk.js",
+    "static/js/2.7cd649af.chunk.js.map": "/react-portfolio/static/js/2.7cd649af.chunk.js.map",
+    "static/js/3.ee5e8b36.chunk.js": "/react-portfolio/static/js/3.ee5e8b36.chunk.js",
+    "static/js/3.ee5e8b36.chunk.js.map": "/react-portfolio/static/js/3.ee5e8b36.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.ebec0848.chunk.css.map": "/react-portfolio/static/css/main.ebec0848.chunk.css.map",
+    "static/js/2.7cd649af.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7cd649af.chunk.js.LICENSE.txt",
+    "static/media/Parallax.css": "/react-portfolio/static/media/schedulercropped.a054f1ac.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a9cf803.js",
+    "static/js/runtime-main.c3ca914a.js",
     "static/js/2.7cd649af.chunk.js",
-    "static/css/main.32507a9f.chunk.css",
+    "static/css/main.ebec0848.chunk.css",
     "static/js/main.ecee0909.chunk.js"
   ]
 }
