@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
 import Parallax from "../../components/Parallax/Parallax";
 import ProjectTitles from "../../components/ProjectTitles/ProjectTitles";
 import "./Home.css";
@@ -20,6 +21,7 @@ const Home = () => {
 
   return (
     <>
+      <Navbar fixed="top" />
       <div className="row">
         <ProjectTitles title={titles.directory} />
         <Parallax portfolio={projects.directory} />
