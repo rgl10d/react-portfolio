@@ -6,7 +6,8 @@
 
 hr {
     position: relative;
-    border-top: 2px solid #D959C6;
+    border-top: 1px solid white;
     left: 10%;
     width: 80%;
+    /* opacity: .35; */
 }
