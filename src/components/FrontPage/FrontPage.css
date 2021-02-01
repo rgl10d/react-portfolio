@@ -1,0 +1,27 @@
+.front-page-div {
+  height: 100vh;
+  width: 100%;
+  background-image: url(http://cdn.lowgif.com/full/67284e3627da6f9f-cool-background-gifs-3-background-check-all.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  background-size: 750px;
+  background-color: black;
+  /* display: "flex"; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.name-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .front-page-div {
+    background-attachment: scroll;
+  }
+}
