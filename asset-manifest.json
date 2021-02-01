@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d2e928ec.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.7c94b0c7.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.7c94b0c7.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.c3ca914a.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.c3ca914a.js.map",
-    "static/js/2.b5e8c92e.chunk.js": "/react-portfolio/static/js/2.b5e8c92e.chunk.js",
-    "static/js/2.b5e8c92e.chunk.js.map": "/react-portfolio/static/js/2.b5e8c92e.chunk.js.map",
-    "static/js/3.ee5e8b36.chunk.js": "/react-portfolio/static/js/3.ee5e8b36.chunk.js",
-    "static/js/3.ee5e8b36.chunk.js.map": "/react-portfolio/static/js/3.ee5e8b36.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.92806261.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.386a950c.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.386a950c.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.0c08a767.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.0c08a767.js.map",
+    "static/js/2.283bf263.chunk.js": "/react-portfolio/static/js/2.283bf263.chunk.js",
+    "static/js/2.283bf263.chunk.js.map": "/react-portfolio/static/js/2.283bf263.chunk.js.map",
+    "static/js/3.91bbca48.chunk.js": "/react-portfolio/static/js/3.91bbca48.chunk.js",
+    "static/js/3.91bbca48.chunk.js.map": "/react-portfolio/static/js/3.91bbca48.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.d2e928ec.chunk.css.map": "/react-portfolio/static/css/main.d2e928ec.chunk.css.map",
-    "static/js/2.b5e8c92e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b5e8c92e.chunk.js.LICENSE.txt",
+    "static/css/main.92806261.chunk.css.map": "/react-portfolio/static/css/main.92806261.chunk.css.map",
+    "static/js/2.283bf263.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.283bf263.chunk.js.LICENSE.txt",
     "static/media/Parallax.css": "/react-portfolio/static/media/schedulercropped.a054f1ac.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3ca914a.js",
-    "static/js/2.b5e8c92e.chunk.js",
-    "static/css/main.d2e928ec.chunk.css",
-    "static/js/main.7c94b0c7.chunk.js"
+    "static/js/runtime-main.0c08a767.js",
+    "static/js/2.283bf263.chunk.js",
+    "static/css/main.92806261.chunk.css",
+    "static/js/main.386a950c.chunk.js"
   ]
 }
