@@ -6,10 +6,6 @@ function App() {
     <Router basename="/">
       <Route exact path="/" component={Home} />
     </Router>
-
-    // <Router basename="/">
-    // <Route exact path="/" component={Directory} />
-    // </Router>
   );
 }
 

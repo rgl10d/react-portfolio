@@ -23,23 +23,39 @@ const Home = () => {
     <>
       <Navbar fixed="top" />
       <div className="row">
-        <ProjectTitles title={titles.directory} />
-        <Parallax portfolio={projects.directory} />
+        <div className="col-sm-12">
+          <ProjectTitles title={titles.directory} />
+        </div>
+        <div className="col-sm-12">
+          <Parallax portfolio={projects.directory} />
+        </div>
       </div>
       <hr />
       <div className="row">
-        <ProjectTitles title={titles.makeup} />
-        <Parallax portfolio={projects.makeup} />
+        <div className="col-sm-12">
+          <ProjectTitles title={titles.makeup} />
+        </div>
+        <div className="col-sm-12">
+          <Parallax portfolio={projects.makeup} />
+        </div>
       </div>
       <hr />
       <div className="row">
-        <ProjectTitles title={titles.reserve} />
-        <Parallax portfolio={projects.reserve} />
+        <div className="col-sm-12">
+          <ProjectTitles title={titles.reserve} />
+        </div>
+        <div className="col-sm-12">
+          <Parallax portfolio={projects.reserve} />
+        </div>
       </div>
       <hr />
       <div className="row">
-        <ProjectTitles title={titles.scheduler} />
-        <Parallax portfolio={projects.scheduler} />
+        <div className="col-sm-12">
+          <ProjectTitles title={titles.scheduler} />
+        </div>
+        <div className="col-sm-12">
+          <Parallax portfolio={projects.scheduler} />
+        </div>
       </div>
     </>
   );
