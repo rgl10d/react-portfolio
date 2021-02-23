@@ -1,29 +1,29 @@
 .bg-img-parallax {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 350px;
-    border: 5px solid #A01803;
-    opacity: 0.75;
-    margin-bottom: 60px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  border: 5px solid #a01803;
+  opacity: 0.75;
+  margin-bottom: 60px;
 }
 
-.portfolio1 {
-    background-image: url(./screenshots/makeupsite.png);
+.portfolio-friend {
+  background-image: url(./screenshots/schedulercropped.png);
 }
 
-.portfolio2 {
-    background-image: url(./screenshots/reservecropped.png);
+.portfolio-directory {
+  background-image: url(./screenshots/directory.png);
 }
 
-.portfolio3 {
-    background-image: url(./screenshots/directory.png);
+.portfolio-makeup {
+  background-image: url(./screenshots/makeupsite.png);
 }
 
-.portfolio4 {
-    background-image: url(./screenshots/schedulercropped.png);
+.portfolio-reserve {
+  background-image: url(./screenshots/reservecropped.png);
 }
 
 /* .logo-tray {
@@ -62,8 +62,10 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .portfolio1, .portfolio2, .portfolio3, .portfolio4 {
+  .portfolio1,
+  .portfolio2,
+  .portfolio3,
+  .portfolio4 {
     background-attachment: scroll;
   }
 }
-
