@@ -1,0 +1,13 @@
+hr {
+    position: relative;
+    border-top: 1px solid white;
+    width: 50%;
+}
+
+.bg1 {
+    background-color: black;
+}
+
+.bg2 {
+    background-color: rgb(48, 48, 48);
+}

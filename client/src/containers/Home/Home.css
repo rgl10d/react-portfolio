@@ -4,9 +4,23 @@
     width: 70%;
 }
 
-hr {
-    position: relative;
-    border-top: 1px solid white;
-    left: 10%;
-    width: 80%;
+#root {
+    background: rgb(52,52,52);
+    background: linear-gradient(0deg, rgba(52,52,52,1) 0%, rgba(0,0,0,1) 65%, rgba(0,0,0,1) 100%);
+}
+
+.portfolio-friend {
+    background-color: black;
+}
+
+.portfolio-directory {
+    background-color: rgb(48, 48, 48);
+}
+
+.portfolio-makeup {
+    background-color: black;
+}
+
+.portfolio-reserve {
+    background-color: rgb(48, 48, 48);
 }

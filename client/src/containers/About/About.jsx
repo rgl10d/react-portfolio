@@ -1,8 +1,10 @@
 import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
 
 const About = () => {
   return (
     <>
+    <Navbar />
       <p style={{color: "white"}}>
         My name is Garrett Lee. I am from Tallahassee, FL, but I now live in
         Peachtree Corners, GA. I originally went to Florida State University and

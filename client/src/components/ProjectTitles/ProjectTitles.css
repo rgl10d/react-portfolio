@@ -1,5 +1,29 @@
 .titleEl {
-    text-align: center;
-    height: 100px;
-    margin-bottom: 60px;
-};
+  text-align: center;
+  height: 100px;
+  margin-bottom: 55px;
+}
+
+[class^="devicon-"],
+[class*=" devicon-"] {
+  font-size: 4rem;
+  margin: 5px;
+}
+
+.description-text {
+  text-align: center;
+  left: 20%;
+  color: white;
+}
+
+@media only screen and (max-width: 780px) {
+  [class^="devicon-"], [class*=" devicon-"] {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .description-text {
+    left: 10%;
+  }
+}
