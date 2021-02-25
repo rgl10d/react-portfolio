@@ -2,12 +2,13 @@
   text-align: center;
   height: 100px;
   margin-bottom: 55px;
+  margin-top: 50px;
 }
 
 [class^="devicon-"],
 [class*=" devicon-"] {
   font-size: 4rem;
-  margin: 5px;
+  margin: 2px;
 }
 
 .description-text {
@@ -16,9 +17,16 @@
   color: white;
 }
 
+.icon-tray{
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+}
+
 @media only screen and (max-width: 780px) {
   [class^="devicon-"], [class*=" devicon-"] {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 }
 
@@ -27,3 +35,9 @@
     left: 10%;
   }
 }
+
+/* @media only screen and (max-width: 435px) {
+  .icon-tray {
+    right: 15%;
+  }
+} */

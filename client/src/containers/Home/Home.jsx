@@ -1,6 +1,6 @@
 import React from "react";
 import FrontPage from "../../components/FrontPage/FrontPage";
-import Navbar from "../../components/Navbar/Navbar";
+// import Navbar from "../../components/Navbar/Navbar";
 import Project from "../../components/Project/Project";
 import "./Home.css";
 
@@ -41,7 +41,7 @@ const Home = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="row">
         <div className="col-sm-12">
           <FrontPage />

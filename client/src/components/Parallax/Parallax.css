@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
-  border: 5px solid #a01803;
+  border: 5px solid #be1900;
   opacity: 0.75;
   margin: 60px 0px 60px 0px;
 }
@@ -62,10 +62,10 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-  .portfolio1,
-  .portfolio2,
-  .portfolio3,
-  .portfolio4 {
+  .portfolio-friend,
+  .portfolio-directory,
+  .portfolio-makeup,
+  .portfolio-reserve {
     background-attachment: scroll;
   }
 }
