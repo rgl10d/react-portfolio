@@ -17,15 +17,16 @@
   color: white;
 }
 
-.icon-tray{
+.icon-tray {
   margin-bottom: 30px;
   flex-wrap: wrap;
-  display: flex;
+  display: inline-block;
   text-align: center;
 }
 
 @media only screen and (max-width: 780px) {
-  [class^="devicon-"], [class*=" devicon-"] {
+  [class^="devicon-"],
+  [class*=" devicon-"] {
     font-size: 3rem;
   }
 }
@@ -36,8 +37,8 @@
   }
 }
 
-/* @media only screen and (max-width: 435px) {
+@media only screen and (max-width: 440px) {
   .icon-tray {
-    right: 15%;
+    display: flex;
   }
-} */
+}

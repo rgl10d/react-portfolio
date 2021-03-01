@@ -12,16 +12,37 @@
 
 #profile-picture {
   width: 100%;
-  max-width: 250px;
-  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+  min-width: 150px;
+  position: relative;
+}
+
+.center{
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
 }
 
 .name-text {
   text-align: center;
 }
 
-@media only screen and (max-device-width: 1024px) {
-  .front-page-div {
-    background-attachment: scroll;
+.about-me {
+  text-align: center;
+  position: relative;
+  left: 8%;
+}
+
+.imgEl {
+  margin: 100px 0px 50px 0px;
+}
+
+@media only screen and (max-device-width: 575px) {
+  .about-me {
+    left: 0%
   }
 }
+
+
+
