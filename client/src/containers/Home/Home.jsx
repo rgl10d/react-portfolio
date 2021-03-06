@@ -10,8 +10,19 @@ const Home = () => {
       classes: "bg-img-parallax portfolio-friend",
       bgClass: "bg1 projectEl",
       title: ".append(friend)",
-      description: "APPEND FRIEND DESCRIPTION",
+      description: "A simple social media app designed for developers to meet each other. This is a full MERN stack application. You can sign-up, upload a profile picture, edit your profile, delete your profile, and like other users. User authentication is implemented with bcrpyt password hashing.",
       link: "",
+      id: "appendID",
+      icons: [
+        "devicon-html5-plain-wordmark colored",
+        "devicon-css3-plain-wordmark colored",
+        "devicon-javascript-plain colored",
+        "devicon-nodejs-plain-wordmark colored",
+        "devicon-express-original-wordmark colored",
+        "devicon-mongodb-plain-wordmark colored",
+        "devicon-react-original-wordmark colored",
+        "devicon-heroku-plain-wordmark colored",
+      ]
     },
     {
       classes: "bg-img-parallax portfolio-directory",
@@ -20,6 +31,13 @@ const Home = () => {
       description:
         "Generates a random list of people through react components that you can sort and search through! The chart will automatically be generated upon loading the page. The table can be sorted by first name and the search narrows down username. With each letter typed in the search bar, the table is dynamically re-rendered.",
       link: "https://rgl10d.github.io/employee-directory/#/",
+      id: "directoryID",
+      icons: [
+        "devicon-html5-plain-wordmark colored",
+        "devicon-css3-plain-wordmark colored",
+        "devicon-javascript-plain colored",
+        "devicon-react-original-wordmark colored",
+      ]
     },
     {
       classes: "bg-img-parallax portfolio-makeup",
@@ -28,6 +46,12 @@ const Home = () => {
       description:
         "Free-from-All allows users to input their current location & search for the makeup type, brand, and toxin-free requirements that they are looking for. Based on those tags, the application is able to curate a list of recommended products and provides a map of nearby shopping locations.",
       link: "https://rgl10d.github.io/free-from-all/",
+      id: "makeupID",
+      icons: [
+        "devicon-html5-plain-wordmark colored",
+        "devicon-css3-plain-wordmark colored",
+        "devicon-javascript-plain colored",
+      ]
     },
     {
       classes: "bg-img-parallax portfolio-reserve",
@@ -36,6 +60,16 @@ const Home = () => {
       description:
         "The Reserve is a room reservation app for libraries to create a log of study rooms and manage them. Status of the rooms will change from 'Available' and 'Not Available' depending on the whether the room is occupied or still in need of sanitization.",
       link: "https://still-ravine-68015.herokuapp.com/",
+      id: "reserveID",
+      icons: [
+        "devicon-html5-plain-wordmark colored",
+        "devicon-css3-plain-wordmark colored",
+        "devicon-javascript-plain colored",
+        "devicon-nodejs-plain-wordmark colored",
+        "devicon-express-original-wordmark colored",
+        "devicon-mysql-plain-wordmark colored",
+        "devicon-heroku-plain-wordmark colored",
+      ]
     },
   ];
 

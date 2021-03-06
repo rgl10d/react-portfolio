@@ -5,10 +5,14 @@
   margin-top: 50px;
 }
 
+#appendID {
+  margin-top: 400px;
+}
+
 [class^="devicon-"],
 [class*=" devicon-"] {
   font-size: 4rem;
-  margin: 2px;
+  margin: 3px;
 }
 
 .description-text {
@@ -37,8 +41,14 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 840px) {
   .icon-tray {
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #appendID {
+    margin-top: 500px;
   }
 }

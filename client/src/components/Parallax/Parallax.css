@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 350px;
-  border: 5px solid #be1900;
+  border: 5px solid #368265;
   opacity: 0.75;
   margin: 60px 0px 60px 0px;
 }
@@ -26,46 +26,18 @@
   background-image: url(./screenshots/reservecropped.png);
 }
 
-/* .logo-tray {
-  background-color: #EDE8E8;
-  position: absolute;
-  width: 30%;
-  left: 40%;
-  bottom: 10%;
-  text-align: center;
-} */
-
-/* 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  background-color: #111;
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 10px;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-} */
-
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-device-width: 768px) {
   .portfolio-friend,
   .portfolio-directory,
   .portfolio-makeup,
   .portfolio-reserve {
     background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-device-width: 425px) {
+  .bg-img-parallax {
+    margin: 180px 0px 60px 0px;
   }
 }
