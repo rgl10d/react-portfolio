@@ -8,7 +8,7 @@ import "./FrontPage.css";
 //   const [hovered, setHovered] = useState(false);
 //   const toggleHover = () => setHovered(!hovered);
 //   return (
-//     <button 
+//     <button
 //       className={hovered ? 'pulse animated' : ''}
 //       onMouseEnter={toggleHover}
 //       onMouseLeave={toggleHover}
@@ -23,7 +23,7 @@ const FrontPage = () => {
       <div className="row">
         <div className="col-sm-12 imgEl">
           <img
-          className="center"
+            className="center"
             id="profile-picture"
             src="http://www.fillmurray.com/600/600"
             alt="Garrett Lee"
@@ -32,26 +32,28 @@ const FrontPage = () => {
       </div>
       <div className="row">
         <div className="col-sm-12">
-          <h2 className="name-text" style={{ color: "#368265" }}>Garrett Lee</h2>
-          <h5 className="name-text" style={{ color: "#368265" }}>Full-Stack Developer</h5>
+          <h2 className="name-text" style={{ color: "#368265" }}>
+            Garrett Lee
+          </h2>
+          <h5 className="name-text" style={{ color: "#368265" }}>
+            Full-Stack Developer
+          </h5>
         </div>
       </div>
       <div className="row">
         <div className="col-sm-10 about-me">
           <p>
-            My name is Garrett Lee. I am from Tallahassee, FL, but I now live in
-            Peachtree Corners, GA. I originally went to Florida State University
-            and graduated with a degree in English which, at the time, was just
-            a stepping stone towards film school. I went to Full Sail University
-            in Orlando, FL and graduated after a couple of years. I found my
-            first job in the film industry soon after, but just as quickly
-            realized that that erratic lifestyle was not for me.
+            Originally from Tallahassee, FL, I've been recently displaced to
+            Peachtree Corners, GA. I've Florida State University and graduated
+            with a degree in English followed soon by film school at Full Sail
+            University in Orlando, FL. I found my first job in the film industry
+            soon after, but just as quickly realized that the erratic film lifestyle
+            was not for me.
           </p>
           <p>
             Having just recently graduated from the Georgia Tech Coding
             Bootcamp, I have found a new love and sense of accomplishment with
-            coding and am actively seeking for a position in the field. I will
-            continue to update this page with further projects in the future!
+            coding and actively seeking for a position in the field.
           </p>
         </div>
         <hr />
@@ -75,8 +77,8 @@ const FrontPage = () => {
         <div className="col-sm-12 name-text">
           <p>What I'm learning now:</p>
         </div>
-        <div className="icon-tray col-sm-12">
-        <i className="devicon-python-plain-wordmark colored"></i>
+        <div className="icon-tray col-sm-12" style={{ display: "inline"}}>
+          <i className="devicon-python-plain-wordmark colored"></i>
         </div>
       </div>
     </div>
