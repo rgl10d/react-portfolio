@@ -9,6 +9,10 @@
   margin-top: 400px;
 }
 
+#reserveID {
+  margin-bottom: 40px;
+}
+
 [class^="devicon-"],
 [class*=" devicon-"] {
   font-size: 4rem;
@@ -41,7 +45,7 @@
   }
 }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 425px) {
   .icon-tray {
     display: flex;
   }

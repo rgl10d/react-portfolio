@@ -1,4 +1,4 @@
-.footer {
+.foots {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -6,12 +6,12 @@
     height: 5%;
     padding-top: 5px;
     color: white;
-    border-top: 3px solid red;
-    background-color: black;
+    border-top: 3px solid #368265;
+    background-color: rgb(48, 48, 48);
     text-align: center;
- }
+}
 
 #footerIcon {
-    font-size: 50px;
+    font-size: 3rem;
     margin: 0px;
 }

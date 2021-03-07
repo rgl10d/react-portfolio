@@ -77,7 +77,7 @@ const FrontPage = () => {
         <div className="col-sm-12 name-text">
           <p>What I'm learning now:</p>
         </div>
-        <div className="icon-tray col-sm-12" style={{ display: "inline"}}>
+        <div className="icon-tray col-sm-12" style={{ display: "inline" }}>
           <i className="devicon-python-plain-wordmark colored"></i>
         </div>
       </div>

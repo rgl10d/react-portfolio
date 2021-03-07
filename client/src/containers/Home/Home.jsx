@@ -31,7 +31,6 @@ const Home = () => {
       description:
         "Generates a random list of people through react components that you can sort and search through! The chart will automatically be generated upon loading the page. The table can be sorted by first name and the search narrows down username. With each letter typed in the search bar, the table is dynamically re-rendered.",
       link: "https://rgl10d.github.io/employee-directory/#/",
-      id: "directoryID",
       icons: [
         "devicon-html5-plain-wordmark colored",
         "devicon-css3-plain-wordmark colored",
@@ -46,7 +45,6 @@ const Home = () => {
       description:
         "Free-from-All allows users to input their current location & search for the makeup type, brand, and toxin-free requirements that they are looking for. Based on those tags, the application is able to curate a list of recommended products and provides a map of nearby shopping locations.",
       link: "https://rgl10d.github.io/free-from-all/",
-      id: "makeupID",
       icons: [
         "devicon-html5-plain-wordmark colored",
         "devicon-css3-plain-wordmark colored",
@@ -60,7 +58,7 @@ const Home = () => {
       description:
         "The Reserve is a room reservation app for libraries to create a log of study rooms and manage them. Status of the rooms will change from 'Available' and 'Not Available' depending on the whether the room is occupied or still in need of sanitization.",
       link: "https://still-ravine-68015.herokuapp.com/",
-      id: "reserveID",
+      id2: "reserveID",
       icons: [
         "devicon-html5-plain-wordmark colored",
         "devicon-css3-plain-wordmark colored",
@@ -76,11 +74,9 @@ const Home = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="row">
         <div className="col-sm-12">
           <FrontPage />
         </div>
-      </div>
       <div className="container-fluid">
       {projects.map((projects) => {
         return <Project {...projects} key={projects.title} />;
