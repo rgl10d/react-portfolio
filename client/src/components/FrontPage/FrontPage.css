@@ -1,5 +1,4 @@
 .front-page-div {
-  height: 100vh;
   background-color: black;
   justify-content: center;
   align-items: center;
@@ -35,7 +34,7 @@
 }
 
 .imgEl {
-  margin: 100px 0px 50px 0px;
+  margin: 20px 0px 20px 0px;
 }
 
 hr {

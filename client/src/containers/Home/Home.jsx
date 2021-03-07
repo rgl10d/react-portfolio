@@ -11,7 +11,7 @@ const Home = () => {
       bgClass: "bg1 projectEl",
       title: ".append(friend)",
       description: "A simple social media app designed for developers to meet each other. This is a full MERN stack application. You can sign-up, upload a profile picture, edit your profile, delete your profile, and like other users. User authentication is implemented with bcrpyt password hashing.",
-      link: "",
+      link: "https://guarded-spire-00242.herokuapp.com/developers",
       id: "appendID",
       icons: [
         "devicon-html5-plain-wordmark colored",
@@ -73,15 +73,13 @@ const Home = () => {
 
   return (
     <>
-      {/* <Navbar /> */}
         <div className="col-sm-12">
           <FrontPage />
         </div>
-      <div className="container-fluid">
+        <h1 className="section-header">Projects</h1>
       {projects.map((projects) => {
         return <Project {...projects} key={projects.title} />;
       })}
-      </div>
     </>
   );
 };

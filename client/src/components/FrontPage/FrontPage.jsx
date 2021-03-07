@@ -53,7 +53,7 @@ const FrontPage = () => {
           <p>
             Having just recently graduated from the Georgia Tech Coding
             Bootcamp, I have found a new love and sense of accomplishment with
-            coding and actively seeking for a position in the field.
+            coding and I am actively seeking a position in the field.
           </p>
         </div>
         <hr />
