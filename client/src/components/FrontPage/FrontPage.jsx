@@ -1,5 +1,6 @@
 import React from "react";
 import "./FrontPage.css";
+import Image from "./itsme.png";
 
 // FOR ICON HOVER IF WANTING TO IMPLEMENT IT
 // import React, { useState } from 'react';
@@ -25,7 +26,7 @@ const FrontPage = () => {
           <img
             className="center"
             id="profile-picture"
-            src="http://www.fillmurray.com/600/600"
+            src={Image}
             alt="Garrett Lee"
           />
         </div>
@@ -43,17 +44,13 @@ const FrontPage = () => {
       <div className="row">
         <div className="col-sm-10 about-me">
           <p>
-            Originally from Tallahassee, FL, I've been recently displaced to
-            Peachtree Corners, GA. I've Florida State University and graduated
-            with a degree in English followed soon by film school at Full Sail
-            University in Orlando, FL. I found my first job in the film industry
-            soon after, but just as quickly realized that the erratic film lifestyle
-            was not for me.
-          </p>
-          <p>
-            Having just recently graduated from the Georgia Tech Coding
-            Bootcamp, I have found a new love and sense of accomplishment with
-            coding and I am actively seeking a position in the field.
+            I am a web developer with a background in film. Having recently completed the 
+            Georgia Tech full stack coding boot camp, a new love and appreciation for web 
+            development and a slew of new skills and tech, like React and JavaScript, are 
+            at my disposal. I’m passionate about learning new angles on how to approach coding 
+            and meeting, and collaborating, with others.. With each project, my goal is to create 
+            something unique that draws people back in. I look forward to being part of a team that 
+            creates something great. 
           </p>
         </div>
         <hr />
